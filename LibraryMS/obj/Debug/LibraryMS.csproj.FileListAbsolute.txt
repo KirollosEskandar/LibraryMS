@@ -1,0 +1,12 @@
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\bin\Debug\LibraryMS.exe.config
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\bin\Debug\LibraryMS.exe
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\bin\Debug\LibraryMS.pdb
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\bin\Debug\LibraryMS_BLL.dll
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\bin\Debug\LibraryMS_BLL.pdb
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.csproj.AssemblyReference.cache
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Properties.Resources.resources
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.csproj.GenerateResource.cache
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.csproj.CoreCompileInputs.cache
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.csproj.Up2Date
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.exe
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.pdb
