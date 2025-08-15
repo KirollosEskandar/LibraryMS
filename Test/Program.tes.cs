@@ -13,10 +13,7 @@ namespace Test
             // Done
             //Person Category Books 
             //Author Member  Users
-
-            //BookAuthors Borrowing
-            //BorrowingBooks 
-
+            // (BookAuthors Borrowing BorrowingBooks)
             //bool id = clsBooks.UpdateBook(1,"Update", 2000, 1, 33);
             //Console.WriteLine(id);
             bool b = clsMember.UpdateMember(2, 14, 2020);
