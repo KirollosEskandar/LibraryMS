@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,8 +22,8 @@ namespace LibraryMS_DAL
             {
                 SqlCommand cmd = new SqlCommand(queryString, conn);
                 cmd.Parameters.AddWithValue("@UserName", UserName);
-                cmd.Parameters.AddWithValue("@Password", NewPassword);
-                cmd.Parameters.AddWithValue("@Password", OldPassword);
+                cmd.Parameters.AddWithValue("@NewPassword", NewPassword);
+                cmd.Parameters.AddWithValue("@OldPassword", OldPassword);
                 try
                 {
                     conn.Open();
@@ -123,7 +124,37 @@ namespace LibraryMS_DAL
             return isLogin > 0;
         }
 
+        static public bool GetUserByUserName
+    (ref string UserName , ref string Password, ref int Person_id)
+        {
+            bool isFound = false;
+            string queryString = "select * from Users where UserName = @UserName;";
 
+            using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                SqlCommand cmd = new SqlCommand(queryString, conn);
+                cmd.Parameters.AddWithValue("@UserName", UserName);
+                try
+                {
+                    conn.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        isFound = true;
+
+                        UserName = (string)reader["UserName"];
+                        Password = (string)reader["Password"];
+                        Person_id = (int)reader["Person_id"];
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ///
+                }
+            }
+            return isFound;
+        }
         static public bool DeleteUser
   (string UserName, string Password)
         {

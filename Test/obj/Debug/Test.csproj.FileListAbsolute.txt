@@ -8,3 +8,5 @@ C:\Users\Kirollos\Desktop\Reps\LibraryMS\Test\obj\Debug\Test.pdb
 C:\Users\Kirollos\Desktop\Reps\LibraryMS\Test\bin\Debug\LibraryMS_DAL.dll
 C:\Users\Kirollos\Desktop\Reps\LibraryMS\Test\bin\Debug\LibraryMS_DAL.pdb
 C:\Users\Kirollos\Desktop\Reps\LibraryMS\Test\obj\Debug\Test.csproj.Up2Date
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\Test\bin\Debug\LibraryMS_BLL.dll
+C:\Users\Kirollos\Desktop\Reps\LibraryMS\Test\bin\Debug\LibraryMS_BLL.pdb

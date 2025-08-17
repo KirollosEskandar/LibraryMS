@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibraryMS_DAL\LibraryMS_DAL.csproj">
-      <Project>{aeec2438-1701-4806-85e3-0df9a3a37ec1}</Project>
-      <Name>LibraryMS_DAL</Name>
+    <ProjectReference Include="..\LibraryMS_BLL\LibraryMS_BLL.csproj">
+      <Project>{a41a928f-b699-4ec2-a2dd-9fe3e9fcbf53}</Project>
+      <Name>LibraryMS_BLL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
