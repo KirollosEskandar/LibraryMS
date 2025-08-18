@@ -110,7 +110,7 @@ namespace LibraryMS_DAL
                 try
                 {
                     conn.Open();
-                    object obj = cmd.ExecuteNonQuery();
+                    object obj = cmd.ExecuteScalar();
                     if (obj != null)
                     {
                         isLogin = Convert.ToInt32(obj);

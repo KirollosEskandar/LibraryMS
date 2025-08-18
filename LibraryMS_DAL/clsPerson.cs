@@ -98,7 +98,7 @@ namespace LibraryMS_DAL
         }
 
 
-        static public int UpdatePerson
+        static public bool UpdatePerson
     (int Person_id,string FirstName, string LastName, string Phone, string Email)
         {
             int isUpdate = -1;
@@ -126,7 +126,7 @@ namespace LibraryMS_DAL
                     ///
                 }
             }
-            return isUpdate;
+            return isUpdate > -1;
         }
 
         static public bool DeletePerson
@@ -211,15 +211,15 @@ namespace LibraryMS_DAL
         }
 
         static public bool isExist
-    (string Email)
+    (int  Person_id)
         {
             int isFound = 0;
-            string queryString = "select 1 from Person where Email = @Email;";
+            string queryString = "select 1 from Person where Person_id = @Person_id;";
 
             using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand(queryString, conn);
-                cmd.Parameters.AddWithValue("@Email", Email);
+                cmd.Parameters.AddWithValue("@Person_id", Person_id);
                 try
                 {
                     conn.Open();

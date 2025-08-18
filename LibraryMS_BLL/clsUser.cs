@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +25,7 @@ namespace LibraryMS_BLL
             Mode = eMode.AddUser;
         }
 
-        public clsUser(string UserName, string Password, int Person_id)
+        private clsUser(string UserName, string Password, int Person_id)
         {
             this.UserName = UserName;
             this.Password = Password;
@@ -50,12 +51,12 @@ namespace LibraryMS_BLL
             if (isChange)
             {
                 Password = NewPassword;
-                return true ;
+                return true;
             }
-            return false ;
+            return false;
         }
 
-        public clsUser _GetUserByUserName(string userName)
+        public static clsUser _GetUserByUserName(string userName)
         {
             string password = "";
             int person_id = 0;
@@ -66,13 +67,13 @@ namespace LibraryMS_BLL
                 return new clsUser(userName, password, person_id);
             return null;
         }
-    
+
         public bool _Save(string NewPassword = "")
         {
-            switch(Mode)
+            switch (Mode)
             {
                 case eMode.AddUser:
-                    if(_AddUser())
+                    if (_AddUser())
                     {
                         Mode = eMode.UpdateUser;
                         return true;
@@ -83,11 +84,33 @@ namespace LibraryMS_BLL
                     }
                 case eMode.UpdateUser:
                     return _ChangePasswordUser(NewPassword);
-                        
+
             }
 
             return false;
         }
-    
+
+
+        public static bool isExist(string UserName)
+        {
+            if (UserName == string.Empty)
+                return false;
+
+            return LibraryMS_DAL.clsUsers.isExist(UserName);
+        }
+
+        public static bool Login
+     (string UserName, string Password)
+        {
+            if(UserName == string.Empty || Password == string.Empty)
+                return false;
+
+            return LibraryMS_DAL.clsUsers.Login(UserName,Password);
+        }
+        
+        public static DataTable GetAllUsers()
+        {
+            return LibraryMS_DAL.clsUsers.GetAllUsers();
+        }
     }
 }
