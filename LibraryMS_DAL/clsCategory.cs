@@ -10,6 +10,7 @@ namespace LibraryMS_DAL
 {
     public class clsCategory
     {
+        // Category Member
         static public bool isExist
     (string Name)
         {
@@ -150,10 +151,10 @@ namespace LibraryMS_DAL
         }
 
 
-        static public String GetNameCategoryById
-    (int Category_id)
+        static public bool GetNameCategoryById
+    (int Category_id, ref string Category_name)
         {
-            string Name = "";
+            bool isGet = false;
             string queryString = "Select Name from Category where Category_id = @Category_id;";
 
             using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
@@ -166,7 +167,9 @@ namespace LibraryMS_DAL
                     object obj = cmd.ExecuteScalar();
                     if (obj != null)
                     {
-                        Name = Convert.ToString(obj);
+
+                        isGet = true;
+                        Category_name = Convert.ToString(obj);
                     }
                 }
                 catch (Exception ex)
@@ -174,7 +177,7 @@ namespace LibraryMS_DAL
                     ///
                 }
             }
-            return Name;
+            return isGet;
         }
 
         static public DataTable GetAllCategory()

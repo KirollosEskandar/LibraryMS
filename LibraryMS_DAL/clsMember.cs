@@ -113,5 +113,64 @@ namespace LibraryMS_DAL
             return id > 0;
         }
 
+
+        public static bool GetMemberByid(int Member_id, ref int Person_id, ref int Registration_date)
+        {
+            bool isFound = false;
+            string queryString = "select * from Member where Member_id = @Member_id";
+
+            using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                SqlCommand cmd = new SqlCommand(queryString, conn);
+                cmd.Parameters.AddWithValue("@Person_id", Person_id);
+                cmd.Parameters.AddWithValue("@Member_id", Member_id);
+                cmd.Parameters.AddWithValue("@Registration_date", Registration_date);
+                try
+                {
+                    conn.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        Person_id = (int)reader["Person_id"];
+                        Member_id = (int)reader["Member_id"];
+                        Registration_date = (int)reader["Registration_date"];
+                        isFound = true;
+                    }
+                    reader.Close();
+                }
+                catch (Exception ex)
+                {
+                    ///
+                }
+            }
+            return isFound;
+        }
+
+        static public bool isExist
+  (int Member_id)
+        {
+            int isFound = 0;
+            string queryString = "select 1 from Member where Member_id = @Member_id;";
+
+            using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                SqlCommand cmd = new SqlCommand(queryString, conn);
+                cmd.Parameters.AddWithValue("@Member_id", Member_id);
+                try
+                {
+                    conn.Open();
+                    object obj = cmd.ExecuteScalar();
+                    if (obj != null)
+                    {
+                        isFound = Convert.ToInt32(obj);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ///
+                }
+            }
+            return isFound > 0;
+        }
     }
 }
