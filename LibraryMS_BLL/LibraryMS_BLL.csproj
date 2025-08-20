@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAuthor.cs" />
+    <Compile Include="clsBookAuthors.cs" />
+    <Compile Include="clsBooks.cs" />
     <Compile Include="clsCategory.cs" />
     <Compile Include="clsMember.cs" />
     <Compile Include="clsPerson.cs" />
