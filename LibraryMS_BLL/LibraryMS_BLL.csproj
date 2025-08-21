@@ -44,6 +44,8 @@
     <Compile Include="clsAuthor.cs" />
     <Compile Include="clsBookAuthors.cs" />
     <Compile Include="clsBooks.cs" />
+    <Compile Include="clsBorrowing.cs" />
+    <Compile Include="clsBorrowingBooks.cs" />
     <Compile Include="clsCategory.cs" />
     <Compile Include="clsMember.cs" />
     <Compile Include="clsPerson.cs" />
