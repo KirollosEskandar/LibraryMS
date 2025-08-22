@@ -3,13 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7E82067-5757-41FB-AB45-A53679626663}|LibraryMS.csproj|c:\\users\\kirollos\\desktop\\programmer\\reps\\libraryms\\libraryms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7E82067-5757-41FB-AB45-A53679626663}|LibraryMS.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96309628-9AAF-4572-BFC1-172EFAC98443}|..\\Test\\Test.csproj|c:\\users\\kirollos\\desktop\\programmer\\reps\\libraryms\\test\\program.tes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41A928F-B699-4EC2-A2DD-9FE3E9FCBF53}|..\\LibraryMS_BLL\\LibraryMS_BLL.csproj|c:\\users\\kirollos\\desktop\\programmer\\reps\\libraryms\\libraryms_bll\\clsborrowingbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEEC2438-1701-4806-85E3-0DF9A3A37EC1}|..\\LibraryMS_DAL\\LibraryMS_DAL.csproj|c:\\users\\kirollos\\desktop\\programmer\\reps\\libraryms\\libraryms_dal\\clsborrowingbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7E82067-5757-41FB-AB45-A53679626663}|LibraryMS.csproj|c:\\users\\kirollos\\desktop\\programmer\\reps\\libraryms\\libraryms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E82067-5757-41FB-AB45-A53679626663}|LibraryMS.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,39 +29,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsBorrowingBooks.cs",
-              "DocumentMoniker": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS_BLL\\clsBorrowingBooks.cs",
-              "RelativeDocumentMoniker": "..\\LibraryMS_BLL\\clsBorrowingBooks.cs",
-              "ToolTip": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS_BLL\\clsBorrowingBooks.cs",
-              "RelativeToolTip": "..\\LibraryMS_BLL\\clsBorrowingBooks.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwB0AAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T17:25:08.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T14:21:26.303Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "clsBorrowingBooks.cs",
-              "DocumentMoniker": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS_DAL\\clsBorrowingBooks.cs",
-              "RelativeDocumentMoniker": "..\\LibraryMS_DAL\\clsBorrowingBooks.cs",
-              "ToolTip": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS_DAL\\clsBorrowingBooks.cs",
-              "RelativeToolTip": "..\\LibraryMS_DAL\\clsBorrowingBooks.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAEYAAAASAAAAAAAAAA==",
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\LibraryMS\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T17:24:37.216Z",
+              "WhenOpened": "2025-08-22T15:02:40.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.tes.cs",
               "DocumentMoniker": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\Test\\Program.tes.cs",
               "RelativeDocumentMoniker": "..\\Test\\Program.tes.cs",
               "ToolTip": "C:\\Users\\Kirollos\\Desktop\\Programmer\\Reps\\LibraryMS\\Test\\Program.tes.cs",
               "RelativeToolTip": "..\\Test\\Program.tes.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T10:50:59.3Z",
               "EditorCaption": ""

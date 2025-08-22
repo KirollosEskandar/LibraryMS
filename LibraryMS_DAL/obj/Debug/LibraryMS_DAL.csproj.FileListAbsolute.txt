@@ -4,3 +4,9 @@ C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.c
 C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.csproj.CoreCompileInputs.cache
 C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.dll
 C:\Users\Kirollos\Desktop\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.pdb
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS_DAL\bin\Debug\LibraryMS_DAL.dll
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS_DAL\bin\Debug\LibraryMS_DAL.pdb
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.csproj.AssemblyReference.cache
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.dll
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS_DAL\obj\Debug\LibraryMS_DAL.pdb
