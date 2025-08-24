@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibraryMS.People;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,13 @@ namespace LibraryMS
         private void accountToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void peopleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListPeople _frmListPeople = new frmListPeople();
+            _frmListPeople.ShowDialog();
+        
         }
     }
 }

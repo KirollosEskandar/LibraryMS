@@ -57,9 +57,9 @@ namespace LibraryMS_BLL
             return IsUpdate;
         }
     
-        public clsPerson Find()
+        public static clsPerson Find(int id)
         {
-            int id = this.Id;
+             //id = this.Id;
             string FirstName = "", Email = "", LastName = "", Phone = "";
 
             bool isFound = LibraryMS_DAL.clsPerson.GetPersonById(id, ref FirstName, ref LastName, ref Phone, ref Email);

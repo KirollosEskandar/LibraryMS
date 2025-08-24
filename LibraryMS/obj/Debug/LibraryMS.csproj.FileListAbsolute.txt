@@ -25,3 +25,5 @@ C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryM
 C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.exe
 C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.pdb
 C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.frmMain.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.People.frmListPeople.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.People.frmAddEditPerson.resources
