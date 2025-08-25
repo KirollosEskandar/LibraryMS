@@ -13,7 +13,7 @@ namespace LibraryMS_DAL
         public static int AddMember(int Person_id, int Registration_date)
         {
             int id = -1;
-            string queryString = "insert Member(Person_id,Registration_date) Values(@Person_id,Registration_date);select SCOPE_IDENTITY();";
+            string queryString = "insert Member(Person_id,Registration_date) Values(@Person_id,@Registration_date);select SCOPE_IDENTITY();";
 
             using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
             {
@@ -147,15 +147,15 @@ namespace LibraryMS_DAL
         }
 
         static public bool isExist
-  (int Member_id)
+  (int Person_id)
         {
             int isFound = 0;
-            string queryString = "select 1 from Member where Member_id = @Member_id;";
+            string queryString = "select 1 from Member where Person_id = @Person_id;";
 
             using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand(queryString, conn);
-                cmd.Parameters.AddWithValue("@Member_id", Member_id);
+                cmd.Parameters.AddWithValue("@Person_id", Person_id);
                 try
                 {
                     conn.Open();

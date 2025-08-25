@@ -143,7 +143,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(52, 103);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 39);
+            this.label5.Size = new System.Drawing.Size(81, 38);
             this.label5.TabIndex = 10;
             this.label5.Text = "ID : ";
             // 
@@ -154,7 +154,7 @@
             this.LID.ForeColor = System.Drawing.Color.Crimson;
             this.LID.Location = new System.Drawing.Point(156, 103);
             this.LID.Name = "LID";
-            this.LID.Size = new System.Drawing.Size(109, 39);
+            this.LID.Size = new System.Drawing.Size(105, 38);
             this.LID.TabIndex = 11;
             this.LID.Text = "NoNe";
             // 
@@ -165,7 +165,7 @@
             this.LTitle.ForeColor = System.Drawing.Color.Navy;
             this.LTitle.Location = new System.Drawing.Point(269, 33);
             this.LTitle.Name = "LTitle";
-            this.LTitle.Size = new System.Drawing.Size(259, 52);
+            this.LTitle.Size = new System.Drawing.Size(257, 51);
             this.LTitle.TabIndex = 12;
             this.LTitle.Text = "Add Person";
             // 
@@ -187,6 +187,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "frmAddEditPerson";
             this.Text = "AddEditPerson";
             this.Load += new System.EventHandler(this.frmAddEditPerson_Load);

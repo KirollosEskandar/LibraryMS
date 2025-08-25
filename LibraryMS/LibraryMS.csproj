@@ -46,11 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Author\frmAddAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Author\frmAddAuthor.Designer.cs">
+      <DependentUpon>frmAddAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Author\frmAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Author\frmAuthor.Designer.cs">
+      <DependentUpon>frmAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PersonInfoContorl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PersonInfoContorl.Designer.cs">
+      <DependentUpon>PersonInfoContorl.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frmAddMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frmAddMember.Designer.cs">
+      <DependentUpon>frmAddMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frmMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frmMember.Designer.cs">
+      <DependentUpon>frmMember.cs</DependentUpon>
     </Compile>
     <Compile Include="People\frmAddEditPerson.cs">
       <SubType>Form</SubType>
@@ -64,16 +94,40 @@
     <Compile Include="People\frmListPeople.Designer.cs">
       <DependentUpon>frmListPeople.cs</DependentUpon>
     </Compile>
+    <Compile Include="People\frmShowPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmShowPersonInfo.Designer.cs">
+      <DependentUpon>frmShowPersonInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Author\frmAddAuthor.resx">
+      <DependentUpon>frmAddAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Author\frmAuthor.resx">
+      <DependentUpon>frmAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PersonInfoContorl.resx">
+      <DependentUpon>PersonInfoContorl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frmAddMember.resx">
+      <DependentUpon>frmAddMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frmMember.resx">
+      <DependentUpon>frmMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="People\frmAddEditPerson.resx">
       <DependentUpon>frmAddEditPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="People\frmListPeople.resx">
       <DependentUpon>frmListPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmShowPersonInfo.resx">
+      <DependentUpon>frmShowPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -125,5 +179,12 @@
   <ItemGroup>
     <None Include="Resources\AddPerson.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search %281%29.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

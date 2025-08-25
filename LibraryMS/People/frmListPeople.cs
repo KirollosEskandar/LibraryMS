@@ -83,5 +83,12 @@ namespace LibraryMS.People
             frmAddEditPerson frmEditPerson = new frmAddEditPerson(id);
             frmEditPerson.ShowDialog();
         }
+
+        private void showToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int id = (int)dataGridView1.CurrentRow.Cells[0].Value;
+            frmShowPersonInfo FrmShowPersonInfo = new frmShowPersonInfo(id);
+            FrmShowPersonInfo.ShowDialog();
+        }
     }
 }

@@ -9,8 +9,8 @@ namespace LibraryMS_BLL
 {
     public class clsAuthor
     {
-        public int author_id { get; set; }
-        public int Person_id { get; set; }
+        public static int author_id { get; set; }
+        public static int Person_id { get; set; }
 
         public clsAuthor()
         {
@@ -18,27 +18,35 @@ namespace LibraryMS_BLL
             Person_id = -1;
         }
 
-        public bool AddAuthor()
+        public static bool AddAuthor()
         {
-            this.author_id
+            author_id
                 = LibraryMS_DAL.clsAuthor
                 .AddAuthor(Person_id);
             return author_id > -1;
         }
 
-        public bool DeleteAuthor()
+        public static bool DeleteAuthor()
         {
             bool isDelete = false;
 
             isDelete =  LibraryMS_DAL.clsAuthor
-                .DeleteAuthor(this.author_id);
+                .DeleteAuthor(author_id);
             
             return isDelete;
         }
 
-        public DataTable GetAllAuthor()
+        public static DataTable GetAllAuthor()
         {
             return LibraryMS_DAL.clsAuthor.GetAllAuthor();
         }
+
+        static public bool isExist(int id)
+        {
+            return LibraryMS_DAL.
+             clsAuthor.isExist(id);
+        }
+
+
     }
 }

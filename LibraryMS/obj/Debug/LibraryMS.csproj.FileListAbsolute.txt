@@ -27,3 +27,9 @@ C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryM
 C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.frmMain.resources
 C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.People.frmListPeople.resources
 C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.People.frmAddEditPerson.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Author.frmAuthor.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Controls.PersonInfoContorl.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.People.frmShowPersonInfo.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Author.frmAddAuthor.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Member.frmMember.resources
+C:\Users\Kirollos\Desktop\Programmer\Reps\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Member.frmAddMember.resources

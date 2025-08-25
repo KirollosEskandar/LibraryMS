@@ -103,6 +103,16 @@ namespace LibraryMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap author2 {
+            get {
+                object obj = ResourceManager.GetObject("author2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bowringbook {
             get {
                 object obj = ResourceManager.GetObject("Bowringbook", resourceCulture);
@@ -126,6 +136,26 @@ namespace LibraryMS.Properties {
         internal static System.Drawing.Bitmap People1 {
             get {
                 object obj = ResourceManager.GetObject("People1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Search {
+            get {
+                object obj = ResourceManager.GetObject("Search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Search__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Search (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

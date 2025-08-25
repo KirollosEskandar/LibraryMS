@@ -84,7 +84,32 @@ namespace LibraryMS_DAL
             }
             return dt;
         }
+        static public bool isExist
+           (int Person_id)
+        {
+            int isFound = 0;
+            string queryString = "select 1 from Author where Person_id = @Person_id;";
 
+            using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                SqlCommand cmd = new SqlCommand(queryString, conn);
+                cmd.Parameters.AddWithValue("@Person_id", Person_id);
+                try
+                {
+                    conn.Open();
+                    object obj = cmd.ExecuteScalar();
+                    if (obj != null)
+                    {
+                        isFound = Convert.ToInt32(obj);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ///
+                }
+            }
+            return isFound > 0;
+        }
 
     }
 }
